@@ -1,3 +1,6 @@
+--INICIAR SCRIPS RUBY 
+https://www.youtube.com/watch?v=scFfKe0POYs
+
 ----DOCUMENTACION DE RUBY--------------------
 
 https://www.tutorialspoint.com/ruby/ruby_input_output.htm
