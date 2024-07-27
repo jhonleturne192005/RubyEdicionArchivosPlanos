@@ -26,6 +26,10 @@ def modificar_archivo(nombre_archivo,data)
     end 
 end
 
+def directorio_existente(ruta)
+    return File.file?(ruta)
+end
+
 
 def message(data)
       _message=Gtk::MessageDialog.new(
@@ -140,9 +144,14 @@ app.signal_connect "activate" do |application|
       modificar_archivo_bandera=false
       message("Archivo modificado correctamente")
     else
-      #escribe el archivo
-      escribir_archivo(nombre_archivo,contenido_archivo)
-      message("Archivo guardado correctamente")
+      if !directorio_existente("#{nombre_archivo}.txt")
+          #escribe el archivo
+          escribir_archivo(nombre_archivo,contenido_archivo)
+          message("Archivo guardado correctamente")
+      else
+        message("Error ya existe un archivo con ese nombre por favor escriba un nuevo nombre de archivo")
+      end
+    
     end
     
   end
