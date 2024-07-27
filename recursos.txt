@@ -4,6 +4,8 @@ https://www.tutorialspoint.com/ruby/ruby_input_output.htm
 
 https://codigofacilito.com/articulos/crear-leer-archivos-ruby
 
+https://ruby-doc.org/core-2.6.3/File.html
+
 --------------------------
 
 https://github.com/cedlemo/ruby-gtk3-tutorial
@@ -42,11 +44,19 @@ https://stackoverflow.com/questions/24619467/pygobject-hex-color-to-gdk-rgba
 https://stackoverflow.com/questions/40795979/how-to-add-a-new-line-in-gtk-textview
 https://github.com/ruby-gnome/ruby-gnome/blob/master/gtk3/sample/gtk-demo/textview.rb
 
+--obtener texto TEXTVIEW
+https://docs.gtk.org/gtk4/method.TextBuffer.get_text.html
+https://github.com/ruby-gnome/ruby-gnome/blob/master/gtk3/sample/misc/textbuffer-serialize.rb
 
 --DIALOG GTK FileChooserDialog in Ruby 
 https://stackoverflow.com/questions/33438137/gtk-filechooserdialog-in-ruby-doesnt-close-window
 https://github.com/ebruAkagunduz/gtk3-ruby-examples
 
 
+--estilo label
+https://stackoverflow.com/questions/57330389/ruby-and-gtkfontchooserdialog-new-font-size
+https://github.com/ebruAkagunduz/gtk3-ruby-examples 
+https://www.ruby-forum.com/t/bigger-font-size/213065/2 --> pango
 
-
+--estilos botones
+https://github.com/ruby-gnome/ruby-gnome/issues/1084
