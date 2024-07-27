@@ -1,0 +1,52 @@
+----DOCUMENTACION DE RUBY--------------------
+
+https://www.tutorialspoint.com/ruby/ruby_input_output.htm
+
+https://codigofacilito.com/articulos/crear-leer-archivos-ruby
+
+--------------------------
+
+https://github.com/cedlemo/ruby-gtk3-tutorial
+
+https://www.youtube.com/watch?v=0v1T_sFydx0
+
+
+https://www.rubydoc.info/gems/gtk3/3.4.3/Gtk/TextView#get_iter_at_location-instance_method
+
+
+https://docs.gtk.org/gtk3/visual_index.html
+
+
+
+
+--menos pepas
+
+https://ruby-gnome.sourceforge.net/tutorial/
+
+https://docs.gtk.org/gtk3/class.TextView.html
+https://docs.gtk.org/gtk3/class.MessageDialog.html
+
+https://stackoverflow.com/questions/46434176/ruby-gtk-dialog-not-closing
+https://stackoverflow.com/questions/14886023/gtk-messagedialog-not-closing-until-enclosing-method-finishes?rq=3
+
+
+
+https://stackoverflow.com/questions/6240221/how-to-make-gtktextview-look-like-gtkentry
+
+
+(RGBA) --> PARSE hexadecimal
+https://www.ruby-forum.com/t/gtk3-override-color-doesnt-work/237940
+https://stackoverflow.com/questions/24619467/pygobject-hex-color-to-gdk-rgba
+
+--AÑADIR TEXTO A TEXTVIEW
+https://stackoverflow.com/questions/40795979/how-to-add-a-new-line-in-gtk-textview
+https://github.com/ruby-gnome/ruby-gnome/blob/master/gtk3/sample/gtk-demo/textview.rb
+
+
+--DIALOG GTK FileChooserDialog in Ruby 
+https://stackoverflow.com/questions/33438137/gtk-filechooserdialog-in-ruby-doesnt-close-window
+https://github.com/ebruAkagunduz/gtk3-ruby-examples
+
+
+
+
