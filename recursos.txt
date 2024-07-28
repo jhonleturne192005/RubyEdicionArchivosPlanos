@@ -54,6 +54,7 @@ https://github.com/ruby-gnome/ruby-gnome/blob/master/gtk3/sample/misc/textbuffer
 --DIALOG GTK FileChooserDialog in Ruby 
 https://stackoverflow.com/questions/33438137/gtk-filechooserdialog-in-ruby-doesnt-close-window
 https://github.com/ebruAkagunduz/gtk3-ruby-examples
+https://stackoverflow.com/questions/75044461/reading-multiple-files-from-filechooserdialog-gtk-3 --> filters
 
 
 --estilo label
@@ -63,3 +64,8 @@ https://www.ruby-forum.com/t/bigger-font-size/213065/2 --> pango
 
 --estilos botones
 https://github.com/ruby-gnome/ruby-gnome/issues/1084
+
+
+--tamaño de ventana
+https://api.gtkd.org/gtk.ApplicationWindow.ApplicationWindow.html --> set_resizable
+https://lazka.github.io/pgi-docs/Gtk-3.0/classes/ScrolledWindow.html
