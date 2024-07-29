@@ -15,7 +15,6 @@ def leer_archivos(ruta)
 end
 
 def escribir_archivo(nombre_archivo,data,ruta)
-  puts "escrutra"
     puts "#{ruta+"/"+nombre_archivo}.txt"
     File.open("#{ruta+"/"+nombre_archivo}.txt", 'w') do |file|
       file.write(data)
@@ -124,21 +123,21 @@ app.signal_connect "activate" do |application|
   fixed.put @btn_file, 625, 110
   
 
-  @label_nombre_archivo=Gtk::Label.new "Nombre archivo"
+  @label_nombre_archivo=Gtk::Label.new "Nombre del archivo"
   fixed.put @label_nombre_archivo, 20, 90 
   
   @txtNombreArchivo=Gtk::Entry.new()
   @txtNombreArchivo.set_size_request(300,20)
   fixed.put @txtNombreArchivo, 20, 110 
 
-  @label_nombre_archivo=Gtk::Label.new "Contenido archivo"
+  @label_nombre_archivo=Gtk::Label.new "Contenido del archivo"
   fixed.put @label_nombre_archivo, 20, 155
 
   bff = Gtk::TextBuffer.new
   @txtEntrada=Gtk::TextView.new(buffer=bff)
  
   scroll=Gtk::ScrolledWindow.new
-  scroll.set_policy(Gtk::PolicyType::ALWAYS, Gtk::PolicyType::ALWAYS)
+  scroll.set_policy(Gtk::PolicyType::AUTOMATIC, Gtk::PolicyType::AUTOMATIC)
   scroll.add(@txtEntrada)
   scroll.set_size_request(740,325)
   fixed.put scroll, 20, 175
